@@ -28,12 +28,11 @@ disqus_url: "http://nackchuna.github.io"
 # Build settings
 markdown: kramdown
 
-# Assets
-# defaults:
-#   - scope:
-#         path: "assets/img"
-#     values:
-#         image: true
+defaults:
+  - scope:
+        path: "assets/img"
+    values:
+        image: true
 
 
 # highlight
