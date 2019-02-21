@@ -30,7 +30,7 @@ markdown: kramdown
 
 defaults:
   - scope:
-        path: "assets/img"
+        path: "img"
     values:
         image: true
 
