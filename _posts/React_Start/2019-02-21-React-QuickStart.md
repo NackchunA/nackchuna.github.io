@@ -3,7 +3,7 @@ layout: post
 comments: true
 categories: React&nbsp;Start
 ---
-# React 빠른 시작(for Windows)
+# QuickStart for Windows
 
 &nbsp;
 
@@ -58,3 +58,35 @@ yarn start
 를 입력하면 리액트 프로젝트가 시작되고, 브라우저창에 기본 리액트 페이지가 나타나게 됩니다.<br>
 ![](/assets/img/React-QuickStart02.png)<br>
 ![](/assets/img/React-QuickStart03.png)<br>
+
+
+# QuickStart for Mac
+## 1. Node install
+* Nodejs - Mac(OSX)에 nodejs를 설치하는 최고의 방법 : http://hochulshin.com/node-install-osx/
+1. Ruby Install
+```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+2. node install by brew
+```
+brew install node
+```
+3. npm Install
+```
+echo "export PATH=$PATH:/usr/local/Cellar/node/11.10.1/bin" >> ~/.profile
+. ~/.profile
+```
+
+## 2. Make Test project
+```
+npm install -g create-react-app
+
+create-react-app my-app
+cd my-app/
+npm start
+
+
+출처: https://aspdotnet.tistory.com/2001 [심재운 블로그]
+```
+
+
+# QuickStart for Linux
